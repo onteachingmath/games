@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On Teaching Math - Games</title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background-color: #ffffff;
+      color: #402c9f;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #0077cc;
+    }
+    p.description {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .game-card {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .game-card:hover {
+      transform: translateY(-5px);
+    }
+    .game-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .game-title {
+      font-size: 1.3rem;
+      margin: 15px 0 10px;
+      color: #0077cc;
+    }
+    .game-description {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .play-button {
+      background-color: #402c9f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .play-button:hover {
+      background-color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Interactive Math Games</h1>
+  <p class="description">Engage your students with curriculum-aligned games that make math fun, memorable, and interactive. Click any game below to begin!</p>
+
+  <div class="games-grid">
+    <div class="game-card">
+      <img src="images/tic-tac-toe icon.jpg" alt="Tic Tac Toe Icon">
+      <div class="game-title">Tic Tac Toe</div>
+      <div class="game-description">Master math concepts one move at a time. Perfect for warm-ups and quick reviews.</div>
+      <a class="play-button" href="https://onteachingmath.org/tic-tac-toe/" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="images/connect4 icon.jpg" alt="Connect 4 Icon">
+      <div class="game-title">Connect 4</div>
+      <div class="game-description">Stack four correct answers to win. Great for partners or competitive review!</div>
+      <a class="play-button" href="https://onteachingmath.org/connect4/" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="images/jeopardy icon.jpg" alt="Jeopardy Icon">
+      <div class="game-title">Jeopardy</div>
+      <div class="game-description">A team-based trivia showdown with math categories and daily doubles.</div>
+      <a class="play-button" href="https://onteachingmath.org/jeopardy/" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="images/unit circle boss game icon.jpg" alt="Unit Circle Boss Icon">
+      <div class="game-title">Unit Circle Boss Game</div>
+      <div class="game-description">Defeat levels by mastering angles, radians, and trig values. A true math quest!</div>
+      <a class="play-button" href="https://onteachingmath.org/unitcirclebossgame/" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <img src="images/ib chatbot icon.jpg" alt="IB Chatbot Icon">
+      <div class="game-title">IB Math Chatbot</div>
+      <div class="game-description">Get instant practice with IB-style math questions, hints, and guided feedback.</div>
+      <a class="play-button" href="https://onteachingmath.org/ibchatbot/" target="_blank">Play Now</a>
+    </div>
+  </div>
+</body>
+</html>
